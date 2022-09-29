@@ -1,0 +1,21 @@
+
+Insert table data in MySQL DataBase:-
+=========================================
+
+INSERT INTO hibernatedb.insurancepolicy VALUES (1111,"Devdutt","LIC",5);
+INSERT INTO hibernatedb.insurancepolicy VALUES (1112,"Devdutt","LIC",5);
+INSERT INTO hibernatedb.insurancepolicy VALUES (1113,"Rohit","Term insurance",20);
+INSERT INTO hibernatedb.insurancepolicy VALUES (1114,"Vaibhav","Endowment plan",15);
+INSERT INTO hibernatedb.insurancepolicy VALUES (1115,"Shivani","Child insurance",18);
+INSERT INTO hibernatedb.insurancepolicy VALUES (1116,"Diksha","Term insurance",15);
+INSERT INTO hibernatedb.insurancepolicy VALUES (1117,"Darshan","Retairment plan",35);
+
+
+Show table records in db
+==========================
+
+sql> SELECT * FROM hibernatedb.insurancepolicy;
+
+
+
+sql> desc  hibernatedb.insurancepolicy;
